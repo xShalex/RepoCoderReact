@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
 import { ItemListContainer } from './components/ItemListContainer';
 import { ItemDetailContainer } from './components/ItemDetailContainer';
+import { ItemCount } from './components/ItemCount';
+import Cart from './components/Cart';
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="/product/:itemId" element={<ItemDetailContainer />} />
 
         <Route path="*" element={<Navigate to="/" />} />
+
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </BrowserRouter>
   );

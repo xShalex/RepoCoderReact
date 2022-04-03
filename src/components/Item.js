@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Item = ({ id, name, category, image, price }) => {
+export const Item = ({ id, name, category, image, price, stock }) => {
   return (
     <Link to={`/product/${id}`}>
       <div className={`item_card ${category}-category`}>

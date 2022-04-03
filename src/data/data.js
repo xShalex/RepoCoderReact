@@ -6,6 +6,7 @@ export const data = [
       image: 'https://www.tradeinn.com/f/13821/138214230/amd-cpu-ryzen-9-5950x-3.4ghz.jpg',
       description: 'Marca AMD',
       price: 20,
+      stock: 5,
     },
     {
       id: '2',
@@ -14,6 +15,7 @@ export const data = [
       image: 'https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_08-02-2022-10-02-24-ld0005900230_1.jpg',
       description: 'Marca Intel',
       price: 21,
+      stock: 5,
     },
     {
       id: '3',
@@ -22,6 +24,7 @@ export const data = [
       image: 'https://m.media-amazon.com/images/I/81-GWj0nEkL._AC_SL1500_.jpg',
       description: 'Marca NVIDIA',
       price: 50,
+      stock: 5,
     },
     {
       id: '4',
@@ -30,6 +33,7 @@ export const data = [
       image: 'https://m.media-amazon.com/images/I/81MI0aaWjnL._AC_SL1500_.jpg',
       description: 'Marca GIGABYTE',
       price: 410,
+      stock: 5,
     },
     {
       id: '5',
@@ -38,6 +42,7 @@ export const data = [
       image: 'https://www.donanimhaber.com/images/images/haber/143325/1400x788rog-z690-hero-anakarti-olanlara-dikkat.jpg',
       description: 'Marca ASUS',
       price: 90,
+      stock: 5,
     },
     {
       id: '6',
@@ -46,6 +51,7 @@ export const data = [
       image: 'https://c1.neweggimages.com/ProductImage/13-119-362-V06.jpg',
       description: 'Marca ASUS',
       price: 60,
+      stock: 5,
     },
     {
       id: '7',
@@ -54,6 +60,7 @@ export const data = [
       image: 'https://mla-s1-p.mlstatic.com/983345-MLA48283517948_112021-F.jpg',
       description: 'Marca AMD',
       price: 120,
+      stock: 5,
     },
     {
       id: '8',
@@ -62,6 +69,7 @@ export const data = [
       image: 'https://mexx-img-2019.s3.amazonaws.com/procesador-cpu-ryzen_40368_1.jpeg',
       description: 'Marca AMD',
       price: 110,
+      stock: 5,
     },
   ];
   
